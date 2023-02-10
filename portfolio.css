@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}
+.logo h1{
+    font-family: 'manrope',sans-serif;
+    font-size: 2rem;
+}
+
+
+nav ul a li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    font-family: 'jost',sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+}
+.active{
+    color:  rgb(147, 147, 200);
+}
+
+nav ul a li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(147, 147, 200);
+    top: 75%;
+    left: 15%;
+    border-radius: 100px;
+    transition: 0.5s;
+  
+}
+nav ul a li:hover::after{
+    width: 80%;
+}
+nav ul a li:hover{
+    color: rgb(147, 147, 200);
+}
+.portfolio-page{
+    padding: 20px;
+}
+.banner{
+    
+    text-align: center;
+    font-family: 'jost',sans-serif;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+
+.body h4{
+    color: rgb(238, 148, 13);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.body h1{
+    font-family: 'manrope',sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.body p{
+    font-size: 1.2rem;
+    font-weight: 900;
+    
+}
+.image img{
+    max-width: 70%;
+    margin-top: 3rem;
+}
+/* 1st section ends */
+
+.service-section{
+    padding: 100px 20px 100px 20px;
+    background-color:  #f8f9fa;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 30px;
+    font-family:'jost', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.service-1{
+    grid-column: span 6;
+    align-self: center;
+
+}
+.service-2{
+    grid-column: span 6;
+}
+.service-2{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+}
+.service-2 div{
+   
+    box-shadow: 1px 5px 5px 5px silver;
+    height: 70vh;
+}
+.service-1 h1{
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'manrope',sans-serif;
+}
+.service-1 p{
+    padding-bottom: 60px;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+@media only screen and (max-width:991px){
+    .service-1,
+    .service-2{
+        grid-column: span 12;
+    }
+}
+.service-1 h3{
+    color: rgb(238, 148, 13);
+    font-size: 20px;
+    text-transform: capitalize;
+   font-weight: 900;
+   padding-bottom: 30px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+
+}
+.link img{
+    
+    width: 5%;
+    margin-left: 3%;
+}
+.link{
+    display: flex;
+}
+.link a span{
+    color:  rgb(238, 148, 13) ;
+}
+ /* 2nd section ends */
+
+ .skills-section{
+    padding: 100px 20px 100px 20px;
+    
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 30px;
+    font-family:'jost', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.skills-text{
+    grid-column: span 6;
+    
+}
+.skills-img{
+    grid-column: span 6;
+    position: relative;
+}
+.skills-img img{
+    max-width: 100%;
+    position: relative;
+}
+.skills-text h3{
+    font-size: 25px;
+    color:  rgb(238, 148, 13);
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.skills-text h1{
+    font-size: 40px;
+    font-family: 'source sans pro',sans-serif;
+}
+.skills-text p{
+    font-size: 18px;
+    margin-top: 1.5rem;
+    line-height: 28px;
+    font-weight: 900;
+}
+.skills-bar{
+    margin-top: 3rem;
+}
+.progress-info{
+    margin-bottom: 25px;
+}
+.progress{
+   
+    background-color: #f8f9fa;
+    height: 1vh;
+    border-radius: 100px;
+    
+}
+.progress-bar-1{
+    background-color: blue;
+    height: 1vh;
+    width: 86%;
+    height: 1vh;
+    border-radius: 100px;
+}
+.progress-bar-2{
+    background-color: blue;
+    height: 1vh;
+    width: 80%;
+    border-radius: 100px;
+}
+.progress-bar-3{
+    background-color: blue;
+    height: 1vh;
+    width: 55%;
+    border-radius: 100px;
+}
+.progress-bar-4{
+    background-color: blue;
+    height: 1vh;
+    width: 90%;
+    border-radius: 100px;
+}
+.progress-info h6{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:991px){
+    .skills-text,
+    .skills-img{
+        grid-column: span 12;
+    }
+}
+/* 3rd section ends */
+
+
+.award-section{
+    padding: 100px 20px 100px 20px;
+    background-color:  #f8f9fa;
+}
+.award-grid{
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 30px;
+    font-family:'jost', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.award-text{
+    grid-column: span 6;
+}
+.award-img{
+    grid-column: span 6;
+    align-self: center;
+    position: relative;
+   
+}
+.award-img img{
+    max-width: 100%;
+    position: relative;
+    
+}
+.award-item{
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    margin-bottom: 25px;
+}
+.award-item-img{
+    grid-column: span 4;
+    width: 70%;
+    height: 8vh;
+    box-shadow: 1px 1px 1px 1px silver;
+    margin: 2%;
+}
+.award-item-text{
+    grid-column: span 8;
+}
+
+.award-item-img img{
+    max-width: 100%;
+   
+}
+.award-text h3{
+    font-size: 25px;
+    color:  rgb(238, 148, 13);
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.award-text h1{
+    font-family: 'source sans pro',sans-serif;
+    font-size: 40px;
+}
+.award-text .only{
+    margin-top: 1.5rem;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.award-item-text h4{
+    font-size: 22px;
+    font-family: 'source sans pro',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.award-item-text p{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.award-list{
+    margin-top: 3rem;
+}
+@media only screen and (max-width:991px){
+    .award-text,
+    .award-img{
+        grid-column: span 12;
+    }
+}
+
+.absolute-img .abs-1{
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: -100px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    
+
+}
+.absolute-img .abs-2{
+    width: 170px;
+    right: 30px;
+    top: -70px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+}
+.absolute-img .abs-3{
+    position: absolute;
+    width: 180px;
+    bottom: -80px;
+    left: 100px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.absolute-2-img .abs-2-1{
+    position: absolute;
+    width: 200px;
+    top: -90px;
+    left: 0;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+.absolute-2-img .abs-2-2{
+    position: absolute;
+    width: 170px;
+    top: -70px;
+    right: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+/* 4th section ends */
+
+.testimonial-section{
+    padding: 100px 20px 100px 20px;
+}
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    gap: 30px;
+    font-family:'jost', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.testimonial-text{
+    grid-column: span 6;
+}
+.testimonial-img{
+    grid-column: span 6;
+}
+.testimonial-img img{
+    max-width: 100%;
+}
+.testimonial-text h3{
+    font-size: 25px;
+    color:  rgb(238, 148, 13);
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    
+}
+.testimonial-text h1{
+    font-size: 40px;
+    font-family: 'source sans pro',sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.testimonial-text p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.client img{
+    width: 15%;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    padding: 10px;
+}
+.client{
+    margin-top: 35px;
+    display: flex;
+}
+.client p{
+    margin-left: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.client p span{
+    font-size: 22px;
+    font-family: 'source sans pro',sans-serif;
+}
