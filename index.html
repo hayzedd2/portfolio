@@ -9,30 +9,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <section class="portfolio-page" id="home">
-      <div class="heading">
+    <header>
+      <div class="house">
         <div class="logo">
           <h1>Hayzedd</h1>
         </div>
         <nav>
+          <input type="checkbox" name="" id="show-burger">
           <ul>
-            <a href="#home"><li class="active">home</li></a>
-            <a href="#service"><li>my portfolio</li></a>
+            <a href=""><li class="active">home</li></a>
             <a href=""><li>contact me</li></a>
+            <a href=""><li>testimonials</li></a>
           </ul>
         </nav>
-      </div>
-     <div class="banner">
-        <div class="body">
-            <h4>about me</h4>
-            <h1>Hello I'm Azeez Alhameen ,<br> I am working as a web developer.</h1>
-            <p>I love web design and i have been working on my portfolio since 2016. I Can give your business a new Creative start right away! ❤️ </p>
+        <label for="show-burger">
+          <div class="burger">
+           <img src="./images/menu.png" alt="">
           </div>
-        <div class="image">
+       </label>
+      </div>
+    </header>
+
+    <section class="portfolio-page" id="home">
+      <div class="body">
+          <h4>about me</h4>
+          <h1>Hello, <span class="name">I'm Azeez Alhameen.</span><br> I am working as  <span class="type-b">a web developer.</span></h1>
+          <p>I love web design and i have been working on my portfolio since 2022. I Can give your business a new Creative start right away! ❤️ </p>
+          <div class="image">
             <img src="./images/banner.png" alt="">
         </div>
-     </div>
-    </section>
+      </div>
+      
+  </section>
+    
     <!-- 1-st page ends -->
 
     <section class="service-section" id="service">
@@ -49,9 +58,8 @@
   
           </div>
           <div class="service-2">
-             <div class="image-box">
-
-             </div>
+            <img src="./images/file1.png" alt="">
+          </div>
       </div>
       </section>
       <!-- 2nd section ends -->
@@ -62,7 +70,7 @@
             <img src="./images/skills.png" alt="">
             <div class="absolute-2-img">
               <img src="./images/file.png" alt="" class="abs-2-1">
-              <img src="./images/file1.png" alt="" class="abs-2-2">
+              
             </div>
           </div>
           <div class="skills-text">
@@ -107,37 +115,28 @@
           <div class="award-text">
             <h3>My Awards and Acheivements</h3>
             <h1>Professional awards and honors I’ve reached.</h1>
-            <p class="only">Personal awards. Having O7 Years of Experience with the desire and motivation to achieve Success 🙂 </p>
+            <p class="only">Personal awards. Having O2 Years of Experience with the desire and motivation to achieve Success 🙂 </p>
             <div class="award-list">
-              <div class="award-item">
-                <div class="award-item-img">
-                 
-                </div>
+             
+                
                 <div class="award-item-text">
                   <h4>web development awards</h4>
                   <p>for best interactive website</p>
                 </div>
-              </div>
+              
   
-              <div class="award-item">
-                <div class="award-item-img">
-                  
-                </div>
+             
                 <div class="award-item-text">
                   <h4>innovative ideas design website</h4>
                   <p>for most loved illustration</p>
                 </div>
-              </div>
-                <div class="award-item">
-                  <div class="award-item-img">
-                 
-                  </div>
+              
                   <div class="award-item-text">
                     <h4>creative design award</h4>
                     <p>for best project design</p>
                    
                   </div>
-                </div>
+                
             </div>
             
           </div>
@@ -157,22 +156,99 @@
       <!-- 4th section ends -->
 
       <section class="testimonial-section">
+        <div class="testimonial-heading">
+          <h1>Don't take our words for it</h1>
+          <h2>Trust our customers</h2>
+        </div>
         <div class="testimonial-grid">
          
-          <div class="testimonial-img">
-            <img src="./images/clients.png" alt="">
-          </div>
-          <div class="testimonial-text">
-            <h3>testimonials</h3>
-            <h1>what my clients think about me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit provident dicta expedita inventore! Ex laborum, dolor commodi magnam libero, quis consequatur nam similique totam ea distinctio at error quisquam saepe.</p>
-            <div class="client">
-              <img src="./images/man3.png" alt="">
-              <p><span>julia sakura</span><br>seattle washington</p>
+          <div>
+            <div class="img-text">
+              <img src="./images/man2.png" alt="">
+              <h4><span>azeez habeeb</span><br>product designer at voyage control</h4>
+              <p>If you are looking for a nice developer,you are the right place ,<span>@hayzedd</span> gave me an awesome website within two weeks of reaching out to him .Kudos!</p><br>
+                <p>22nd , september · 5:59pm</p>
             </div>
+          </div>
+          <div>
+            <div class="img-text">
+              <img src="./images/girl.png" alt="">
+              <h4><span>azeez mariam</span><br>customer fulfilment finance at amazon</h4>
+              <p>He completely re built my website for me during the covid-19 lockdown. He took my brief and injected his own creative ideas and showed an excellent understanding of the style I was trying to create. He worked quickly and was there when needed. Excellent! Nothing but the best web-development works like UI/UX design.full-stack development cloud developers and many more that you can get.Cheers to <span>@hayzedd</span> </p><br><br>
+              <p>4th , March · 3:29pm</p>
+
+            </div>
+          </div>
+          <div>
+            <div class="img-text">
+              <img src="./images/man3.png" alt="">
+              <h4><span>azeez malik</span><br>economist at meta</h4>
+              <p>Great service and attention to detail.Can't recommend highly enough.Thanks to <span>@hayzedd</span> and will be using again in the future</p><br>
+                <p>13th , January · 6:47pm</p>
+
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <div class="review-button">
+          <button>see all reviews</button>
+        </div>
+      </section>
+
+      <!-- 5th section ends -->
+
+      <section class="contact-section">
+        <div class="contact-heading">
+          <h3>Get in touch with me</h3>
+          <h2>Are you ready to <span>work together?</span></h2>
+          <p>Let's start a Project. Hire Me</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-text">
+            <p>I’m open to any communication! Feel free to contact me any convenient way! I’m always interested in hearing about new projects and opportunities. </p>
+            <div class="details">
+              <div class="details-text">
+                <img src="./images/call.png" alt="">
+                <p>+234 9080 33 5147</p>
+              </div>
+              <div class="details-text">
+                <img src="./images/email.png" alt="">
+                <p>Azeezalhameen1@gmail.com</p>
+              </div>
+              <div class="details-text">
+                <img src="./images/pin.png" alt="">
+                <p>24th spring road,estate</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="contact-form">
+            <input type="text" placeholder="name" class="together">
+            <input type="text" placeholder="email" class="together">
+            <input type="text" placeholder="subject">
+           <textarea name="" id="" placeholder="message" cols="30" rows="10"></textarea>
+           <div class="send">
+            <button>send message</button>
+           </div>
 
           </div>
         </div>
       </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+    var typed = new Typed('.type-b' ,{
+      strings:["web developer","website designer.","an instructor."],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+
+    });
+    
+   </script>
+
+
+   
   </body>
 </html>
