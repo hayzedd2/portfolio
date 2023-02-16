@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.works-heading{
+    margin-top: 10%;
+    text-align: center;
+    line-height: 1.7;
+}
+.works-heading h3{
+    font-size: 25px;
+    font-family:'jost',sans-serif ;
+    text-transform: capitalize;
+    font-weight: 900;
+    color:rgba(238, 148, 13, 0.815);
+}
+.works-heading h1{
+    font-size: 35px;
+    font-family: 'source sans pro',sans-serif;
+    text-transform: capitalize;
+}
+.works-heading h1 span{
+    background-color: rgba(255, 182, 73, 0.745);
+    padding: 5px;
+}
+
+.works-section{
+    padding: 25px;
+    background-color: whitesmoke;
+}
+.works-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+    
+}
+.image img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.text{
+    text-align: left;
+    line-height: 1.7;
+}
+.text h3{
+    text-transform: capitalize;
+    font-family: 'jost',sans-serif;
+    font-weight: 900;
+   font-size: 18px;
+
+}
+.text p{
+    text-transform: capitalize;
+    font-family: 'jost',sans-serif;
+    font-weight: 700;
+}
+.radio{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+@media only screen and (max-width:991px){
+    .works-heading{
+        margin-top: 25%;
+    }.works-heading h3{
+        font-size: 18px;
+    }
+    .works-heading h1{
+        font-size: 25px;
+    }
+    .text h3{
+        font-size: 15px;
+    }
+}

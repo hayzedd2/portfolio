@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Mulish&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.section{
+    padding-top: 25px;
+    padding-bottom: 60px;
+    background-color: rgb(63, 61, 61);
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(334px, 1fr));
+    padding: 30px;
+    gap: 20px;
+    row-gap: 25px;
+   
+
+    font-family: 'jost', sans-serif;
+    font-size: 1.1rem;
+    
+    
+   
+    
+    
+    color: rgb(136, 134, 134);
+    
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    text-transform: capitalize;
+    color: white;
+    font-family: 'mulish', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+div.heading h2{
+    text-transform: capitalize;
+    background-image: linear-gradient(to right ,rgb(6, 237, 237)50%, rgb(6, 199, 6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'mulish' , sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.grid .text-1{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    
+    
+  
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.img-text-1 img{
+    width: 15%;
+    margin-right: 13px;
+    
+}
+.img-text-1{
+    padding-bottom: 15px;
+}
+.img-text-1 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-1 h4 span{
+    color: white;
+}
+.text-1 p{
+    padding-bottom: 15px;
+
+}
+.text-1 span{
+    color: rgb(73, 73, 237);
+}
+
+.grid .text-2{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+   
+    grid-row: span 2;
+    border-radius: 10px;
+}
+.img-text-2 img{
+    width: 15%;
+    margin-right: 13px;
+    
+}
+.img-text-2{
+    padding-bottom: 15px;
+}
+.img-text-2 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-2 h4 span{
+    color: white;
+}
+.text-2 p{
+    padding-bottom: 15px;
+}
+
+
+.grid .text-3{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.img-text-3 img{
+    width: 15%;
+    margin-right: 13px;
+    
+}
+.img-text-3{
+    padding-bottom: 15px;
+}
+.img-text-3 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-3 h4 span{
+    color: white;
+}
+.text-3 p{
+    padding-bottom: 15px;
+}
+.text-3 span{
+    color: rgb(73, 73, 237);
+}
+.grid .text-4{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    grid-row: span 2;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.img-text-4 img{
+    width: 15%;
+    margin-right: 13px;
+    background-color: green;
+    border-radius: 100px;
+    
+}
+.img-text-4{
+    padding-bottom: 15px;
+}
+.img-text-4 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-4 h4 span{
+    color: white;
+}
+.text-4 p{
+    padding-bottom: 15px;
+}
+.text-4 span{
+    color: rgb(73, 73, 237);
+}
+.grid .text-5{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+   
+}
+.img-text-5 img{
+    width: 15%;
+    margin-right: 13px;
+   
+    
+    
+}
+.img-text-5{
+    padding-bottom: 15px;
+}
+.img-text-5 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-5 h4 span{
+    color: white;
+}
+.text-5 p{
+    padding-bottom: 15px;
+}
+.text-5 span{
+    color: rgb(73, 73, 237);
+}
+.grid .text-6{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.img-text-6 img{
+    width: 15%;
+    margin-right: 13px;
+    background-color: deepskyblue;
+    border-radius: 100px;
+    
+}
+.img-text-6{
+    padding-bottom: 15px;
+}
+.img-text-6 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-6 h4 span{
+    color: white;
+}
+.text-6 p{
+    padding-bottom: 15px;
+}
+.text-6 span{
+    color: rgb(73, 73, 237);
+}
+.grid .text-7{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    grid-row: span 2;
+    border-radius: 10px;
+    
+
+}
+.img-text-7 img{
+    width: 15%;
+    margin-right: 13px;
+    
+   
+    
+}
+.img-text-7{
+    padding-bottom: 15px;
+}
+.img-text-7 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-7 h4 span{
+    color: white;
+}
+.text-7 p{
+    padding-bottom: 15px;
+
+}
+.text-7 span{
+    color: rgb(73, 73, 237);
+}
+
+.grid .text-8{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+    
+    
+}
+
+.img-text-8 img{
+    width: 15%;
+    margin-right: 13px;
+    background-color: darksalmon;
+    border-radius: 100px;
+    
+}
+.img-text-8{
+    padding-bottom: 15px;
+}
+.img-text-8 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-8 h4 span{
+    color: white;
+}
+.text-8 p{
+    padding-bottom: 15px;
+
+}
+.text-1 span{
+    color: rgb(73, 73, 237);
+}
+.grid .text-9{
+    background-color: rgb(20, 20, 21);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+   
+}
+.img-text-9 img{
+    width: 15%;
+    margin-right: 13px;
+   
+    
+}
+.img-text-9{
+    padding-bottom: 15px;
+}
+.img-text-9 h4{
+    display: inline-block;
+    text-transform: capitalize;
+    
+    
+}
+.img-text-9 h4 span{
+    color: white;
+}
+.text-9 p{
+    padding-bottom: 15px;
+
+}
+.text-9 span{
+    color: rgb(73, 73, 237);
+}
+.button button {
+    font-family: 'jost',sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.759);
+    border-radius: 100px;
+}
+.button{
+    text-align: center;
+    margin-top: 3rem;
+}
+.button button a{
+    color: white;
+    text-decoration: none;
+}
+@media  only screen and (max-width:991px){
+    .heading h1{
+        font-size: 1.5rem;
+    }
+    div.heading h2{
+        font-size: 1.5rem;
+    }
+    .button button{
+        width: 40%;
+        height: 6vh;
+    }
+   .grid{
+    gap: 15px;
+    padding: 15px;
+    
+   }
+   
+}

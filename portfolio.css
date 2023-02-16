@@ -141,7 +141,7 @@ input[type = "checkbox"]{
         left:-100%;
         width: 100%;
         height: auto;
-        margin-left: 0;
+       
         max-width: 250px;
         background-color: white;
         transition: all ease-in 0.3s;
@@ -629,6 +629,10 @@ input[type = "checkbox"]{
 .review-button{
     text-align: center;
 }
+.review-button button a{
+    text-decoration: none;
+    color: white;
+}
 .review-button button{
    
    
@@ -722,6 +726,10 @@ input[type = "checkbox"]{
     font-size: 22px;
     margin-left: 15px;
     margin-bottom: 1rem;
+}
+.details-text p a{
+    text-decoration: none;
+    color: black;
 }
 .details{
     margin-top: 3rem;
